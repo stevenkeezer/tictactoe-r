@@ -1,0 +1,132 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 84px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 84px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game-board {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.navbar {
+  align-content: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+/* .game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+} */
+
+.kep-login-facebook {
+  padding: 9.5px !important;
+}
+
+.deets {
+  display: block;
+  align-self: center;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* align-items: center; */
+}
+
+.game-board {
+  margin-left: 33.5%;
+}
+#scores {
+  float: left;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#status {
+  padding: 5px;
+  padding-left: 27px;
+}
+
+.fb-login-button {
+  background-color: transparent;
+  border: none;
+}
+.kep-login-facebook {
+  margin-right: 15px !important;
+}
+
+.nav {
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover {
+  background-color: lightgrey;
+}
+
+#hoverXO {
+  display: none;
+}
+
+.square:hover #hoverXO {
+  display: block;
+}
+
+/* .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+} */
